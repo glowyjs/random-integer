@@ -1,0 +1,34 @@
+{
+  "name": "@glowyjs/random-integer",
+  "version": "1.0.0",
+  "description": "Generate a random integer",
+  "license": "MIT",
+  "repository": "glowyjs/random-integer",
+  "author": {
+    "name": "Sergey Romanenko",
+    "email": "awilum@msn.com",
+    "url": "https://github.com/Awilum"
+  },
+  "type": "module",
+	"exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "glowyjs",
+    "glowy",
+    "random",
+    "integer",
+    "int",
+    "number"
+  ]
+}
