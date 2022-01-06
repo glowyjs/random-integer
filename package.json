@@ -1,7 +1,7 @@
 {
   "name": "@glowyjs/random-integer",
   "version": "1.0.0",
-  "description": "Generate a random integer",
+  "description": "Random Integer package provides functionality to generate a random integer value.",
   "license": "MIT",
   "repository": "glowyjs/random-integer",
   "author": {
