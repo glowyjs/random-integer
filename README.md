@@ -1,6 +1,11 @@
-# random-integer
+<h1 align="center">Random Integer</h1>
+<p align="center">
+Random Integer package provides functionality to generate a random integer value.
+</p>
 
-> Generate a random integer
+<p align="center">
+<a href="https://github.com/glowyjs/random-integer/releases"><img alt="Version" src="https://img.shields.io/github/release/glowyjs/random-integer.svg?label=version&color=green"></a> <a href="https://github.com/glowyjs/random-integer"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a> <a href="https://packagist.org/packages/glowy/strings"> <img src="https://github.com/glowyjs/random-integer/actions/workflows/tests.yml/badge.svg">
+</p>
 
 ## Install
 
@@ -11,7 +16,7 @@ $ npm install --save @glowyjs/random-integer
 ## Usage
 
 ```js
-const randomInteger = require('@glowyjs/random-integer');
+import randomInteger from '@glowyjs/random-integer';
 
 randomInteger();
 //=> 1109494507128900
