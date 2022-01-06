@@ -1,5 +1,4 @@
-'use strict';
-module.exports = function randomInteger(min, max) {
+export default function randomInteger(min, max) {
 
     if (min === undefined) {
         min = 0;
