@@ -17,10 +17,18 @@ test('randomInteger with number min 0 and max 10 less than 11', t => {
 	t.true(randomInteger(0, 10) < 11);
 });
 
-test('randomInteger with string to thow error', t => {
+test('randomInteger with string to thow error on string', t => {
   const error = t.throws(() => {
 		randomInteger('string')
 	}, {instanceOf: TypeError});
 
-	t.is(error.message, 'Expected all arguments to be numbers');
+	t.is(error.message, 'Expected all arguments to be numbers.');
 });
+
+test('randomInteger with string to thow error on min > max', t => {
+	const error = t.throws(() => {
+		  randomInteger(10, 0)
+	  }, {instanceOf: TypeError});
+  
+	  t.is(error.message, 'Min cannot be greater than Max.');
+  });
