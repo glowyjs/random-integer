@@ -4,7 +4,7 @@ Random Integer package provides functionality to generate a random integer value
 </p>
 
 <p align="center">
-<a href="https://github.com/glowyjs/random-integer/releases"><img alt="Version" src="https://img.shields.io/github/release/glowyjs/random-integer.svg?label=version&color=green"></a> <a href="https://github.com/glowyjs/random-integer"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a> <img src="https://github.com/glowyjs/random-integer/actions/workflows/tests.yml/badge.svg">
+<a href="https://github.com/glowyjs/random-integer/releases"><img alt="Version" src="https://img.shields.io/github/release/glowyjs/random-integer.svg?label=version&color=green"></a> <img src="https://img.shields.io/npm/dt/@glowyjs/random-integer"> <a href="https://github.com/glowyjs/random-integer"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a> <img src="https://github.com/glowyjs/random-integer/actions/workflows/tests.yml/badge.svg">
 
 ## Install
 
